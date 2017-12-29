@@ -1,0 +1,33 @@
+/*
+	Author: Dewan Imtiaz Been Emran
+	project: Demo, test for frontend developer, Nascenia LTD, assignment given by Maria Rashid
+	Date: 29 DEC 2017
+
+*/
+
+/*slider */
+.carousel{
+	position: absolute;
+	width: 100%;
+	z-index: -10000;
+}
+
+
+/*navbar*/
+.navbar{
+	padding-top: 50px;
+	z-index: 1000;
+}
+.nav-link{
+	background: #5350A2;
+	color: #fff;
+	margin-right: 6px;
+}
+.btn-outline-success{
+	background: #68C5BE;
+	color:#fff;
+	margin-right:5px;
+}
+.form-inline{
+	padding-top:18px;
+}
