@@ -164,6 +164,24 @@ tr,td{
 tr{
 	border-bottom: 1px solid #fff;
 }
+/*form buttons*/
+.btn-register{
+	padding: 0.375rem 0.75rem;
+	background-color: #5350A3;
+	color: #fff;
+	border:none;
+}
+.btn-register:hover{
+	color:orange;
+	cursor: pointer;
+}
+.trial>button{
+	color:#5350A3;
+}
+.trial>button:hover{
+	color:orange;
+	cursor:pointer;
+}
 /*tick colors*/
 .fa-check{
 	color:#5350A3;
@@ -182,4 +200,54 @@ tr{
 .copyright, .contact{
 	margin: 30px 20px;
 
+}
+/*responsive queries*/
+
+/*for mobile devices*/
+@media screen and (max-width: 760px){
+	.adcontainer{
+		display:none;
+	}
+	.tabcontainer{
+		width:100%;
+	}
+	.navbar{
+		width:75%;
+	}
+	.center>img{
+		padding-left:0px;
+	}
+	.shoptext>p{
+		font-size:17px;
+	}
+	.mobile{
+		display:block;
+	}
+	.desktop{
+		display:none;
+	}
+	.tab{
+		border-bottom: 1px solid #fff;
+		font-size: 15px;
+	}
+	.tab button{
+		float: none;
+		padding: 0px 0px;
+	}
+	.tab img{
+		display: none;
+	}
+
+}
+/*desktop visiblity*/
+@media screen and (min-width: 760px){
+	.desktop{
+		display: block;
+	}
+	.mobile{
+		display:none;
+	}
+	.adcontainer{
+		display: block;
+	}
 }
