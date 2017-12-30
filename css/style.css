@@ -86,6 +86,7 @@
     display: none;
     padding: 6px 12px;
     border-top: none;
+    margin: 20px 20px;
 }
 .tabcolor{
     background: #EEEEF0;
@@ -96,6 +97,7 @@
 }
 /*shop*/
 .shop{
+	margin-top: 20px;
 	border-top:2px solid #ccc;
 	width: 100%
 }
@@ -118,4 +120,36 @@
 }
 .left{
 	float: left;
+}
+.right{
+	float: right;
+}
+/*advertisement container*/
+.adcontainer{
+	float: left;
+	width: 20%;
+}
+
+/*pricing section*/
+.pricing{
+	background: #5350A3;
+	width: 100%;
+}
+.pricingHeader{
+	text-align: center;
+	padding-top:20px;
+	color: #fff;
+	font-size: 29px;
+	padding-bottom: 20px;
+}
+.pricinghead{
+	background: #6CC7BE;
+	font-size: 19px;
+}
+.pricehead>h3{
+	background: #6CC7BE;
+
+}
+tr,td{
+	background: #E8E8E8;
 }
